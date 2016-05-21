@@ -7,7 +7,7 @@ h1 {
   font-family: 'Rock Salt', cursive;
   color: #0ea7b5;
   text-shadow: black 2px 2px 0px;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ h4 {
   font-family: 'Playfair Display', serif;
   color: #0c457d;
   text-shadow: black 1px 1px 0px;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: -1%;
   width: 25%;
   border: 3px dotted #4f372d;
@@ -24,12 +24,12 @@ h4 {
 
 p {
   font-family: 'Abel', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 li {
   font-family: 'Abel', sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .content {
@@ -106,8 +106,8 @@ li {
   width: 300px;
 }
 
-.reference-contact.hidden {
-  visibility:hidden;
+.reference-contact {
+  display: none;
 }
 
 .revealPlaceHolder {
